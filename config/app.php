@@ -171,6 +171,7 @@ return [
         Jenssegers\Date\DateServiceProvider::class,
         Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
         Spatie\Tail\TailServiceProvider::class,
+        Spatie\CollectionMacros\CollectionMacroServiceProvider::class,
 
         /*
          * Application Service Providers...
