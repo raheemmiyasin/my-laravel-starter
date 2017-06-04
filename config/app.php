@@ -174,6 +174,7 @@ return [
         Spatie\CollectionMacros\CollectionMacroServiceProvider::class,
         Maatwebsite\Excel\ExcelServiceProvider::class,
         UxWeb\SweetAlert\SweetAlertServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -239,6 +240,7 @@ return [
         'JWTFactory' => Tymon\JWTAuth\Facades\JWTFactory::class,
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
         'Alert' => UxWeb\SweetAlert\SweetAlert::class,
+        'Debugbar' => Barryvdh\Debugbar\Facade::class,
 
     ],
 
