@@ -172,6 +172,7 @@ return [
         Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
         Spatie\Tail\TailServiceProvider::class,
         Spatie\CollectionMacros\CollectionMacroServiceProvider::class,
+        Maatwebsite\Excel\ExcelServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -235,6 +236,7 @@ return [
         'Date' => Jenssegers\Date\Date::class,
         'JWTAuth' => Tymon\JWTAuth\Facades\JWTAuth::class,
         'JWTFactory' => Tymon\JWTAuth\Facades\JWTFactory::class,
+        'Excel' => Maatwebsite\Excel\Facades\Excel::class,
 
     ],
 
